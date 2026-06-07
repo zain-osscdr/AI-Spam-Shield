@@ -1,32 +1,46 @@
+---
+
+title: Ai Spam Shield
+emoji: 🛡️
+colorFrom: blue
+colorTo: green
+sdk: gradio
+sdk_version: 6.16.0
+app_file: app.py
+pinned: false
+license: other
+--------------
+
 # AI Spam Shield
 
-AI Spam Shield is a spam email detection system built using DistilBERT and Gradio.
+AI Spam Shield is a machine learning based spam detection system developed for Natural Language Processing.
 
 ## Features
 
-* Spam Detection
-* Ham Detection
-* Confidence Score
-* Example Messages
-* Modern User Interface
-* Responsive Design
+* Spam and Ham Classification
+* TF-IDF Vectorization
+* Multinomial Naive Bayes Model
+* Confidence Score Display
+* Modern Gradio Interface
+* Real Time Prediction
 
 ## Technology Stack
 
 * Python
 * Gradio
-* Transformers
-* DistilBERT
-* Hugging Face
+* Scikit-learn
+* NLTK
+* Joblib
 
-## Installation
+## Project Structure
 
-pip install -r requirements.txt
-
-## Run Project
-
-py app.py
+* app.py
+* spam_model.pkl
+* tfidf_vectorizer.pkl
+* style.css
+* requirements.txt
+* assets/
 
 ## Author
 
-Student NLP Project
+NLP Semester Project
