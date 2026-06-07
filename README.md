@@ -42,3 +42,19 @@ https://huggingface.co/spaces/zainosscdr/ai-spam-shield
 Zain
 
 NLP Semester Project
+
+## Screenshots
+
+### Home Screen
+
+![Home](screenshots/Home.png)
+
+### Spam Detection
+
+![Spam](screenshots/Spam.png)
+
+### Ham Detection
+
+![Ham](screenshots/Ham.png)
+
+Added screenshots to README
