@@ -1,46 +1,44 @@
----
+# 🛡 AI Spam Shield
 
-title: Ai Spam Shield
-emoji: 🛡️
-colorFrom: blue
-colorTo: green
-sdk: gradio
-sdk_version: 6.16.0
-app_file: app.py
-pinned: false
-license: other
---------------
+AI Spam Shield is a machine learning based spam detection system.
 
-# AI Spam Shield
+## Live Demo
 
-AI Spam Shield is a machine learning based spam detection system developed for Natural Language Processing.
+https://huggingface.co/spaces/zainosscdr/ai-spam-shield
 
 ## Features
 
-* Spam and Ham Classification
-* TF-IDF Vectorization
-* Multinomial Naive Bayes Model
-* Confidence Score Display
-* Modern Gradio Interface
-* Real Time Prediction
+- Spam Detection
+- Ham Detection
+- Confidence Score
+- Real Time Prediction
+- Modern Interface
 
-## Technology Stack
+## Technology Used
 
-* Python
-* Gradio
-* Scikit-learn
-* NLTK
-* Joblib
+- Python
+- Scikit Learn
+- NLTK
+- Gradio
+- Joblib
 
-## Project Structure
+## Model Performance
 
-* app.py
-* spam_model.pkl
-* tfidf_vectorizer.pkl
-* style.css
-* requirements.txt
-* assets/
+- Accuracy: 99.28%
+- Precision: 97.32%
+- Recall: 97.32%
+- F1 Score: 97.32%
+
+## Project Files
+
+- app.py
+- spam_model.pkl
+- tfidf_vectorizer.pkl
+- requirements.txt
+- style.css
 
 ## Author
+
+Zain
 
 NLP Semester Project
