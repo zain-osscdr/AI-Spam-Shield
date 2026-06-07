@@ -1,0 +1,46 @@
+Project Title: AI Spam Shield
+
+Objective:
+To develop a spam email detection system using Natural Language Processing and a DistilBERT based model. The system classifies messages as Spam or Ham and provides a confidence score through a user friendly Gradio interface.
+
+Tools and Technologies:
+
+* Python
+* Gradio
+* Transformers
+* DistilBERT
+* Hugging Face
+* GitHub
+
+Project Features:
+
+* Spam Detection
+* Ham Detection
+* Confidence Score
+* Example Messages
+* Responsive User Interface
+* GitHub Integration
+
+Files Included:
+
+* app.py
+* style.css
+* requirements.txt
+* README.md
+* shield.png
+
+Testing Messages:
+
+Spam Example:
+Congratulations! You have won a FREE iPhone. Click here to claim your reward.
+
+Offer Example:
+Limited Time Offer! Buy now and save 50%. Click here to claim your discount.
+
+Normal Example:
+Hi Team,
+Please find the meeting agenda attached.
+Regards
+
+GitHub Repository:
+https://github.com/zain-osscdr/AI-Spam-Shield
